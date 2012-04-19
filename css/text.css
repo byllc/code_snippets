@@ -1,0 +1,22 @@
+/* In some browsers you can change the text selection colors */
+::selection{ /* for saf and opera */
+  background: yellow;
+  color: purple;
+}
+
+::moz-selection{ /* ff */
+  background: yellow;
+  color: purple;
+}
+
+/* Replacing Text with an Image For SEO and accesibility while maintaining a design*/
+.text_content{
+  text-indent: -100000; /* Some Large number */
+  background: url(/some/image);
+  height:  100; /* height of image */
+}
+
+/* Drop Caps on first letter */
+p:first-letter { font-size: 120%; font-weight: bold; }
+
+

@@ -1,0 +1,6 @@
+/*Cross Browser Transparency*/
+filter:alpha(opacity=20)
+-moz-opacity:0.2
+-khtml-opacity:0.2
+opacity:0.2
+

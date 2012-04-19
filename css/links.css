@@ -1,0 +1,4 @@
+/*Style links that open in a new window to look different */
+a[target="_blank"]:before, a[target="new"]:before {
+  color: red;
+}

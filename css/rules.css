@@ -1,0 +1,5 @@
+/* Important Rule
+!important can be used to say a specific value should be honored with a higher precidence than those below it. 
+The example below will give blue font color*/
+p{ font-color: blue !important; font-color: green; }
+

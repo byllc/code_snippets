@@ -1,4 +1,6 @@
-code_snippets
+Code Snippets
 =============
 
-Code snippets and techniques for getting things done
+# Code snippets and techniques for getting things done in various languages
+
+
