@@ -1,0 +1,5 @@
+#copy query to csv file with headers delimited by ','
+COPY <query>
+TO '/file/path/file_name.csv'
+WITH DELIMITER ','
+CSV HEADER
