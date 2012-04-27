@@ -1,0 +1,27 @@
+"Simpe vimrc with sane defaults for non vim users
+
+"make vim behave in a more sane fashion wrt arrow keys
+set nocompatible
+
+"turn on syntax highlighting
+syntax on
+
+"make vim use good colors for dark background
+set background=dark
+
+"column and row in bottom of screen
+set ruler
+
+"line numbers
+set number
+
+
+#require plugins for below
+
+"Pathogen : Get from https://github.com/tpope/vim-pathogen
+call pathogen#infect()
+syntax on
+filetype plugin indent on
+
+"NERDTree Automatic if no files specified : Get from https://github.com/scrooloose/nerdtree
+autocmd vimenter * if !argc() | NERDTree | endif

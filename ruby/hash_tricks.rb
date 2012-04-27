@@ -11,3 +11,6 @@ Hash.new{ |hash,key|  "There was no value found for key #{key}" }
 # Another example where we initialize any miss with 0
 Hash.new{ |hash,key|  hash[key] = 0 }
 
+#reverse merge (keep values in original hash instead of overwriting)
+hash.reverse_merge(hash2)
+
