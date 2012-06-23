@@ -3,3 +3,7 @@ COPY <query>
 TO '/file/path/file_name.csv'
 WITH DELIMITER ','
 CSV HEADER
+
+
+#Recipes to find duplicates
+SELECT field1,field2,count(*) from tablename group by field1,field2 having (count(*) > 1)
