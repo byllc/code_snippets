@@ -1,0 +1,5 @@
+-- Tell Google Chrome to position itself to 0,0 at the size 1000 1190
+tell application "System Events" to tell process "Google Chrome"
+    set position of window 1 to { 0, 0 }
+    set size of window 1 to { 1000,1190}
+end tell
